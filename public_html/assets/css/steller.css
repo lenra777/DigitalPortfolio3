@@ -11679,3 +11679,45 @@ pre {
   display: flex;
   flex-direction: column;
 }
+
+.contact {
+    padding: 60px 0;
+}
+
+.contact .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact .form-group {
+    margin-bottom: 15px;
+}
+
+.contact .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact .php-email-form {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact .php-email-form .text-center {
+    text-align: center;
+}
+
+.contact .php-email-form button {
+    background: #79A9F5;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact .php-email-form button:hover {
+    background: #2e7bf7;
+}
